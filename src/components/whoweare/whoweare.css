@@ -1,0 +1,130 @@
+.who-we-are{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url('./ai-loader-opt.gif');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 150%;
+}
+.whoweare-philosophy{
+    display: flex;
+    width: 68%;
+    padding: 0 1rem 4rem 4rem;
+}
+.block{
+    padding-left: 1rem;
+}
+.whoweare-philosophy a{
+    color: #660000;
+}
+.whoweare-about{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.whoweare-about h1{
+    color: #fff;
+}
+.whoweare-about p{
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+@media only screen and (max-width: 1024px){
+    .whoweare-about h1{
+    font-size: 1.7rem;
+    }
+    .whoweare-philosophy{
+        display: flex;
+        width: 100%;
+        padding: 0rem 10rem 4rem 2rem;
+    }
+    .block{
+        padding-left: 1rem;
+    }
+    .whoweare-about{
+        padding: 3rem;
+    }
+    .block p{
+    font-size: 0.8rem;   
+    }
+    .whoweare-about p{
+        font-size: 1rem;
+    }  
+    }
+@media only screen and (max-width: 768px){
+.whoweare-about h1{
+font-size: 1.7rem;
+}
+.whoweare-philosophy{
+    display: flex;
+    width: 100%;
+    padding: 0rem 7rem 4rem 2rem;
+}
+.block{
+    padding-left: 1rem;
+}
+.whoweare-about{
+    padding: 3rem;
+}
+.block p{
+font-size: 0.8rem;   
+}
+.whoweare-about p{
+    font-size: 1rem;
+}  
+}
+@media only screen and (max-width: 425px){
+    .whoweare-about{
+        padding: 3rem;
+    }
+    .whoweare-about h1{
+        font-size: 1.4rem;
+        }
+        .whoweare-philosophy{
+            display: flex;
+            width: 100%;
+            padding: 0rem 2rem 4rem 2rem;
+        }
+        .block{
+            padding-left: 1rem;
+        }
+        .block p{
+        font-size: 0.65rem;   
+        }
+        .whoweare-about p{
+            font-size: 0.8rem;
+        }  
+}
+@media only screen and (max-width: 375px){
+    .who-we-are{
+        height: 75vh;
+        background-size: 160%;
+    }
+    .whoweare-about{
+        padding: 2rem;
+    }
+    .whoweare-about h1{
+        font-size: 1.26rem;
+        }
+        .whoweare-philosophy{
+            display: flex;
+            width: 100%;
+            padding: 0rem 1rem 1rem 1rem;
+        }
+        .block{
+            padding-left: 1rem;
+        }
+        .block p{
+        font-size: 0.60rem;   
+        }
+        .whoweare-about p{
+            font-size: 0.8rem;
+        }  
+}
+@media only screen and (max-width: 320px){
+    .who-we-are{
+        height: 68vh;
+        background-size: 160%;
+    }
+}

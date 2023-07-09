@@ -1,0 +1,196 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80vh;
+    background-color: #111111;
+}
+.services ul{
+    padding: 0;
+}
+.policies ul{
+    padding: 0;
+}
+.company ul{
+    padding: 0;
+}
+.footer-information{
+text-align: center;
+display: flex;
+width: 85%;
+justify-content: space-around;
+}
+.services h1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.policies h1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.company h1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.services a{
+    color: #fff;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+.contact-us{
+    width: 30%;
+    text-align: left;
+    color: #fff;
+}
+.contact-us a{
+    margin-top: 30px;
+width: 0%;
+}
+.contact-us h1{
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.services a:hover{
+    color: #660000;
+}
+.services li{
+margin-top: 10px;
+}
+.policies li{
+margin-top: 10px;
+}
+.company li{
+margin-top: 10px;
+}
+.policies a{
+    color: #fff;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+.policies a:hover{
+    color: #660000;
+}
+.company a:hover{
+    color: #660000;
+}
+.company a{
+    color: #fff;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+.reserved p{
+    color: #fff;
+    text-align: center;
+}
+.line{
+    width: 1250px;
+    margin-bottom: 15px;
+    height: 0.5px;
+    background-color: #fff;
+}
+@media only screen and (max-width: 768px){
+    .contact-us h1{
+        width: 100%;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .line{
+        width: 650px;
+        margin-bottom: 15px;
+        height: 0.5px;
+        background-color: #fff;
+    }   
+    .services h1{
+        font-size: 1rem;
+    }
+    .company h1{
+        font-size: 1rem;
+    }
+    .policies h1{
+        font-size: 1rem;
+    }
+    .company a{
+        font-size: 0.7rem;
+    }
+    .services a{
+        font-size: 0.7rem;
+    }
+    .policies a{
+        font-size: 0.7rem;
+    }
+    .reserved p{
+    font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width: 425px){
+    .contact-us{
+    display: none;
+    }
+    .line{
+        width: 350px;
+        margin-bottom: 15px;
+        height: 0.5px;
+        background-color: #fff;
+    }
+    .company a{
+        font-size: 0.6rem;
+    }
+    .services a{
+        font-size: 0.6rem;
+    }
+    .policies a{
+        font-size: 0.6rem;
+    }   
+    .services h1{
+        font-size: 0.8rem;
+    }
+    .company h1{
+        font-size: 0.8rem;
+    }
+    .policies h1{
+        font-size: 0.8rem;
+    }
+    .company a{
+        font-size: 0.6rem;
+    }
+    .reserved p{
+    font-size: 0.7rem;
+    }
+}
+@media only screen and (max-width: 375px){
+    .line{
+        width: 300px;
+        margin-bottom: 15px;
+        height: 0.5px;
+        background-color: #fff;
+    }
+    .company a{
+        font-size: 0.55rem;
+    }
+    .services a{
+        font-size: 0.55rem;
+    }
+    .policies a{
+        font-size: 0.55rem;
+    }   
+    .company a{
+        font-size: 0.55rem;
+    }
+}
+@media only screen and (max-width: 375px){
+    .line{
+        width: 270px;
+        margin-bottom: 15px;
+        height: 0.5px;
+        background-color: #fff;
+    }
+    .reserved p{
+        font-size: 0.6rem;
+        }
+}

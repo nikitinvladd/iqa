@@ -1,0 +1,15 @@
+body, html{
+    overflow-x: hidden;
+}
+h1{
+    font-weight: 700;
+}
+p{
+    font-weight: 500;
+}
+.p-white{
+    color: #fff;
+}
+::selection {
+    background: #3a0000;
+}

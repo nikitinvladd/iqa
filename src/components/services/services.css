@@ -1,0 +1,130 @@
+.our-services{
+    height: 80vh;
+    width: 100%;
+    background-color: #111111;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.maintext-services{
+    padding-top: 4rem;
+    padding-right: 2rem;
+}
+.maintext-services h1{
+font-weight: 600;
+font-size: 2.3rem;
+padding-right: 4rem;
+}
+.services-card{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: 69%;
+}
+.card{
+    padding-left: 2rem;
+    width: 470px;
+    height: 200px;
+    border: none;
+    background-color: #111111;
+}
+.content{
+    display: flex;
+    border-top: 1px solid #fff;
+    padding: 1.5rem;
+}
+.content:hover{
+    border-top: 1.5px solid #660000;
+}
+.content a{
+    text-decoration: none;
+    color: #fff;
+}
+.content a h1{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.content a p{
+    padding-top: 1rem;
+    font-size: 0.83rem;
+    font-weight: 400;
+    width: 95%;
+}
+@media only screen and (max-width: 1024px){
+    .maintext-services{
+        padding-top: 4rem;
+        padding-right: 0;
+    }
+    .content a p{
+        padding-top: 1rem;
+        font-size: 0.73rem;
+        font-weight: 400;
+        width: 95%;
+    }
+    .card{
+        padding-left: 2rem;
+        width: 350px;
+        height: 200px;
+        border: none;
+        background-color: #111111;
+    }
+    .maintext-services h1{
+        font-weight: 600;
+        font-size: 2rem;
+        text-align: center;
+        padding-right: 0;
+        }
+    .our-services{
+        height: 100vh;
+        width: 100%;
+        background-color: #111111;
+        color: white;
+        display: flex;
+        justify-content: center;
+    }    
+}
+@media only screen and (max-width: 768px){
+    .maintext-services{
+        padding-top: 4rem;
+        padding-right: 0;
+    }
+    .maintext-services h1{
+        font-weight: 600;
+        font-size: 2rem;
+        text-align: center;
+        padding-right: 0;
+    }
+    .content a p{
+        padding-top: 1rem;
+        font-size: 0.70rem;
+        font-weight: 400;
+        width: 95%;
+    }
+    .card{
+        padding-left: 2rem;
+        width: 470px;
+        height: 200px;
+        border: none;
+        background-color: #111111;
+    }
+    .our-services{
+        height: 170vh;
+        width: 100%;
+        background-color: #111111;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }    
+}
+@media only screen and (max-width: 425px){
+    .card{
+        padding-left: 0rem;
+        width: 470px;
+        height: 200px;
+        border: none;
+        background-color: #111111;
+    }
+}

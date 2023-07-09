@@ -1,0 +1,127 @@
+.konsultation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    height: 100vh;
+    width: 100%;
+    background-color: #111111;
+    gap: 10rem;
+}
+.konsultation-form{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+}
+.konsultation-form p{
+    margin-top: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+}
+.p-gray{
+    color: #686868;
+}
+.p-red{
+    color:#660000;
+    margin-bottom: 2px;
+}
+.konsultation-form h1{
+    color: #fff;
+    font-size: 2.3rem;
+}
+.inlinewidgetcalendly{
+    border-radius: 2rem;
+    box-shadow: 0px 0px 34px -6px rgba(102,0,0,0.44);
+    -webkit-box-shadow: 0px 0px 34px -6px rgba(102,0,0,0.44);
+    -moz-box-shadow: 0px 0px 34px -6px rgba(102,0,0,0.44);
+}
+@media only screen and (max-width: 1024px){
+    .konsultation{
+        height: 120vh;
+        gap: 5rem;
+    }   
+    .konsultation-form h1{
+        font-size: 2rem;
+    }
+    .konsultation-form p{
+        font-size: 0.9rem;
+    }
+    .konsultation-form{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 768px){
+    .konsultation{
+        flex-direction: column-reverse;
+        height: 170vh;
+        gap: 0rem;
+    }   
+    .konsultation-form h1{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .konsultation-form p{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    .konsultation-form{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 425px){
+    .konsultation{
+        flex-direction: column-reverse;
+        height: 170vh;
+        gap: 0rem;
+    }   
+    .konsultation-form h1{
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .konsultation-form p{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .konsultation-form{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 375px){
+    .konsultation{
+        flex-direction: column-reverse;
+        height: 170vh;
+        gap: 0rem;
+    }   
+    .konsultation-form h1{
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    .konsultation-form p{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .konsultation-form{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 320px){
+    .konsultation{
+        flex-direction: column-reverse;
+        height: 180vh;
+        gap: 0rem;
+    }   
+    .konsultation-form h1{
+        text-align: center;
+        font-size: 1.4rem;
+    }
+    .konsultation-form p{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    .konsultation-form{
+        width: 90%;
+    }
+}

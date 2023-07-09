@@ -1,0 +1,122 @@
+.information{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 120vh;
+    width: 100%;
+    background-color: #111111;
+}
+.info-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-text{
+    color: #660000;
+}
+.info-text h1{
+    color: #fff;
+}
+.info-p{
+    margin-top: 10px;
+    line-height: 1.5rem;
+    font-weight: 400;
+    width: 65%;
+    text-align: center;
+    color: #686868;
+}
+.information-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 90vh;
+}
+.information-card ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.information-card li{
+    width: 300px;
+    height: 330px;
+}
+.information-card li:hover{
+    background-color: #141414;
+    box-shadow: 0px 0px 34px -6px rgba(102,0,0,0.44);
+    -webkit-box-shadow: 0px 0px 34px -6px rgba(102,0,0,0.44);
+    -moz-box-shadow: 0px 0px 34px -6px rgba(102,0,0,0.44);
+}
+.card-information{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.7rem;
+    color: #fff;
+}
+.card-information h1{
+    cursor: pointer;
+font-size: 1.3rem;
+text-align: center;
+}
+.card-information p{
+    margin-top: 10px;
+    text-align: center;
+    line-height: 1rem;
+}
+.card-information img{
+    user-select: none;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+}
+@media only screen and (max-width: 1440px){
+    .information-card{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 80%;
+        height: 90vh;
+    }
+    .info-p{
+        margin-top: 5px;
+        line-height: 1.2rem;
+        width: 79%;
+        font-size: 0.9rem;
+    }
+    .info-text h1{
+        font-size: 1.7rem;
+    }
+    .info-text{
+        font-size: 0.9rem;
+    }
+}
+@media only screen and (max-width: 1024px){
+    .information{
+        height: 190vh;
+    }
+}
+@media only screen and (max-width: 768px){
+    .information{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 210vh;
+        width: 100%;
+        background-color: #111111;
+    }
+}
+@media only screen and (max-width: 425px){
+    .information{
+        height: 420vh;
+    }
+}

@@ -1,0 +1,96 @@
+.carouselimg{
+    width: 100%;
+    height: 100vh;
+}
+.carouselimg1{
+    width: 100%;
+    height: 100vh;
+    background: url(./a_call_to_action_for_generative_ai_cs_4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.carouselimg2{
+    width: 100%;
+    height: 100vh;
+    background: url(./Leonardo_Creative_make_a_similar_picture_like_the_one_I_showed_1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.carouselimg3{
+    width: 100%;
+    height: 100vh;
+    transform: scaleX(-1);
+    background: url(./3d-technology-geometric-black-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.carousel-h1{
+    width: 75%;
+    font-weight: 700;
+    text-align: left;
+    user-select: none;
+}
+.carousel-a{
+    font-weight: 600;
+    color:#660000;
+    text-decoration: none;
+    padding: 0;
+    width: 11%;
+}
+@media only screen and (max-width: 1024px){
+    .carousel-h1{
+        width: 83%;
+        font-weight: 700;
+        text-align: left;
+        user-select: none;
+    }
+    .carousel-a{
+        width: 16%;
+    }
+}
+@media only screen and (max-width: 768px){
+    /* .carousel-h1{
+        width: 80%;
+    } */
+    .carousel-h1 h1{
+        width: 80%;
+        font-size: 2rem;
+    }
+    .carousel-h1 p{
+        width: 70%;
+        font-size: 1rem;
+    }
+    .carousel-a{   
+        width: 20%;
+    }
+}
+@media only screen and (max-width: 425px){
+    .carousel-h1 h1{
+        width: 90%;
+        font-size: 1.8rem;
+    }
+    .carousel-h1 p{
+        width: 90%;
+        font-size: 1rem;
+    }
+    .carousel-a{   
+        width: 33%;
+    }  
+}
+@media only screen and (max-width: 375px){
+    .carousel-h1 h1{
+        width: 90%;
+        font-size: 1.60rem;
+    }
+    .carousel-h1 p{
+        width: 90%;
+        font-size: 0.9rem;
+    }
+    .carousel-a{
+        font-size: 0.9rem;   
+        width: 37%;
+    }  
+}
