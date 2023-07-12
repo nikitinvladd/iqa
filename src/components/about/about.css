@@ -69,7 +69,7 @@ text-align: center;
 @media only screen and (max-width: 425px){
     .about-us{
         flex-direction: column;
-        height: 130vh;
+        height: 160vh;
         gap: 1rem;
     }
     .p-red-about{
@@ -103,5 +103,8 @@ text-align: center;
 @media only screen and (max-width: 320px){
     .faq-img img{
         width: 290px;
+    }
+    .about-us{
+        height: 170vh;
     }
 }

@@ -78,6 +78,10 @@ font-size: 0.8rem;
     .whoweare-about{
         padding: 3rem;
     }
+        .who-we-are{
+        height: 74vh;
+        background-size: 160%;
+    }
     .whoweare-about h1{
         font-size: 1.4rem;
         }
@@ -98,7 +102,7 @@ font-size: 0.8rem;
 }
 @media only screen and (max-width: 375px){
     .who-we-are{
-        height: 75vh;
+        height: 67vh;
         background-size: 160%;
     }
     .whoweare-about{
@@ -124,7 +128,7 @@ font-size: 0.8rem;
 }
 @media only screen and (max-width: 320px){
     .who-we-are{
-        height: 68vh;
+        height: 57vh;
         background-size: 160%;
     }
 }
