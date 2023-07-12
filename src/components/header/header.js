@@ -37,13 +37,13 @@ const Header = () => {
                     <li><a className='nav-link' href="/about">O nas</a></li></ul></div>
                 <ul className={menu_class}>
                     <li><a className='nav-link' href="/">Home</a></li>
-                    <li><a className='nav-link' href="/about">Oferta</a>
+                    <li><a className='nav-link' href="/offer">Oferta</a>
                         <ul>
                             <li><a className='nav-link' href="/webapp">Aplikacje Internetowe</a></li>
                             <li><a className='nav-link' href="/websites">Strony Internetowe</a></li>
                             <li><a className='nav-link' href="/bots">Boty</a></li>
                             <li><a className='nav-link' href="/ads">Reklama</a></li>
-                            <li><a className='nav-link' href="sa">Software Engeniering</a></li>
+                            <li><a className='nav-link' href="/">Software Engeniering</a></li>
                         </ul>
                     </li>
                     <li><a className='nav-link' href="/about">O nas</a></li>
