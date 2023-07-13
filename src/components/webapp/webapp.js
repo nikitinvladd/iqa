@@ -18,7 +18,7 @@ const WebApp = () => {
                 <h1>Aplikacje internetowe</h1>
                 <p className="p-gray">Uwolnij potencjał swojego biznesu! Tworzymy Aplikacji Internetowe, nasz zespół programistów i designerów przedstawi przed tobą najliepszą aplikacje, z indywidualnym designem. Zaufaj nam już dziś i otrzymaj wyniki, które przekroczą Twoje oczekiwania. </p>
                 </motion.div>
-                <motion.div custom={3} variants={textAnimationOpacity} className="webapp-img"><img src="/img/webapp.png" alt="" /></motion.div>
+                <motion.div custom={3} variants={textAnimationOpacity} className="webapp-img"><img src="/img/webapp.png" alt="web application" /></motion.div>
         </motion.div>
     )
 }

@@ -18,7 +18,7 @@ const Ads = () => {
                 <h1>Reklama</h1>
                 <p className="p-gray">Mamy tajną formułę lejka sprzedażowego, która pomoże Ci nie tylko uwolnić potencjał Twojego biznesu, ale także eksplodować sprzedaż i wzbić się na najwyższy poziom!</p>
             </motion.div>
-            <motion.div custom={3} variants={textAnimationOpacity} className="ads-img"><img src="/img/ads.png" alt="" /></motion.div>
+            <motion.div custom={3} variants={textAnimationOpacity} className="ads-img"><img src="/img/ads.png" alt="advertising" /></motion.div>
         </motion.div>
     )
 }

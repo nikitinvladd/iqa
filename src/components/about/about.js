@@ -15,7 +15,7 @@ Nasze podejście opiera się na nowoczesnych technologiach i najlepszych praktyk
 
 Jesteśmy dumni z umiejętności przekształcania skomplikowanych pomysłów w skuteczne aplikacje internetowe. Zaufaj nam już dziś i otrzymaj wyniki, które przekroczą Twoje oczekiwania. </p>
             </div>
-            <div className="faq-img"><img src="/img/aboutus.png" alt="" /></div>
+            <div className="faq-img"><img src="/img/aboutus.png" alt="about us" /></div>
         </div>
     )
 }

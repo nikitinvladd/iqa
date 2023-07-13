@@ -18,7 +18,7 @@ const Bots = () => {
                 <h1>BOTY</h1>
                 <p className='p-gray'>Potrzebujesz specjalistów w sfierze Software Enginnering? Nasz zespól przedstawi tobie najliepsze rozwiązanie twoich pomysłów!</p>
             </motion.div>
-            <motion.div custom={3} variants={textAnimationOpacity} className="bots-img"><img src="/img/bot.png" alt="" /></motion.div>
+            <motion.div custom={3} variants={textAnimationOpacity} className="bots-img"><img src="/img/bot.png" alt="bots" /></motion.div>
         </motion.div>
     )
 }

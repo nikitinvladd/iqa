@@ -31,13 +31,13 @@ width: 40%;
 }
 @media only screen and (max-width: 1024px){
     .about-information h1{
-        font-size: 2.2rem;
+        font-size: 2.1rem;
     }
     .about-us{
         gap: 1rem;
     }
     .about-information p{
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .faq-img img{
         width: 500px;
@@ -46,7 +46,7 @@ width: 40%;
 @media only screen and (max-width: 768px){
     .about-us{
         flex-direction: column;
-        height: 155vh;
+        height: 130vh;
         gap: 0rem;
     }
     .p-red-about{
@@ -69,7 +69,7 @@ text-align: center;
 @media only screen and (max-width: 425px){
     .about-us{
         flex-direction: column;
-        height: 160vh;
+        height: 150vh;
         gap: 1rem;
     }
     .p-red-about{
