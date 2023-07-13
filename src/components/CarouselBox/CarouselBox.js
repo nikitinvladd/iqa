@@ -30,7 +30,7 @@ const CarouselBox = () => {
                         <div className="carouselimg3"></div>
                     <Carousel.Caption className='carousel-h1 d-flex flex-column justify-content-center h-100'>
                         <h1 className="carousel-h1">IQA Announces Strategic Global Partnership with Google Cloud</h1>
-                        <a className="carousel-a" href="d">Read More →</a>
+                        <a className="carousel-a" href="/about">Read More →</a>
                     </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
