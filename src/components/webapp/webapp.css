@@ -42,15 +42,16 @@
 @media only screen and (max-width: 768px){
     .webapp{
         gap: 2rem;
+        height: 120vh;
 }
     .web-information{
         width: 40%;
         }
         .web-information h1{
-            font-size: 2rem;
+            font-size: 1.6rem;
         }
         .web-information p{
-            font-size: 0.8rem;
+            font-size: 0.70rem;
         }
     .webapp-img img{
         width: 350px;
@@ -59,7 +60,7 @@
 @media only screen and (max-width: 425px){
     .webapp{
         flex-direction: column;
-        height: 150vh;
+        height: 180vh;
         gap: 2rem;
     }
     .p-red-webapp{
@@ -67,11 +68,11 @@
         margin-bottom: 2px;
     }
     .web-information{
-        width: 80%;
+        width: 85%;
         }
     .web-information h1{
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.6rem;
         }
         .web-information p{
             font-size: 0.8rem;
@@ -81,8 +82,11 @@
     }
 }
 @media only screen and (max-width: 375px){
+    .webapp{
+        height: 190vh;
+    }
     .web-information h1{
-        font-size: 1.8rem;
+        font-size: 1.4rem;
         }
         .web-information p{
             font-size: 0.8rem;
@@ -92,6 +96,9 @@
     }
 }
 @media only screen and (max-width: 320px){
+    .webapp{
+        height: 200vh;
+    }
     .webapp-img img{
         width: 270px;
     }
