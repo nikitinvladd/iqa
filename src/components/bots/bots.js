@@ -12,7 +12,7 @@ const Bots = () => {
                 <b>Przedsiębiorcy i startupy budujące cyfrowy ślad:</b> Zapewnij swojej firmie cyfrową przewagę, której potrzebuje. Nasze aplikacje botów mogą pomóc w ustanowieniu solidnej obecności online, ułatwiając skuteczne zaangażowanie docelowych odbiorców.
                 </p>
             </div>
-            <div className="bots-img"><img src="/img/bot.png" alt="bots" /></div>
+            <div className="bots-img"><img src="/img/bot.png" alt="IQA - Bots" /></div>
         </div>
     )
 }

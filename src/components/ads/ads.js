@@ -22,7 +22,7 @@ const Ads = () => {
                 <b>Dla firm, które chcą pozostawić cyfrowy ślad na świecie:</b> Daj swojej firmie cyfrową przewagę, na jaką zasługuje. Nasi eksperci mogą pomóc w stworzeniu silnej obecności online, zapewniając skuteczne zaangażowanie odbiorców docelowych i budowanie długoterminowych relacji.
                 </p>
             </motion.div>
-            <motion.div custom={3} variants={textAnimationOpacity} className="ads-img"><img src="/img/ads.png" alt="advertising" /></motion.div>
+            <motion.div custom={3} variants={textAnimationOpacity} className="ads-img"><img src="/img/ads.png" alt="IQA - Advertising" /></motion.div>
         </motion.div>
     )
 }

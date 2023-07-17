@@ -21,7 +21,7 @@ const WebApp = () => {
                 <b>Firmy rozwijające się dzięki technologii:</b> Wykorzystaj moc Web Apps, aby popchnąć swoją firmę do przodu. Dzięki naszemu doświadczeniu możesz wykorzystać najnowocześniejsze technologie, aby zwiększyć produktywność, poprawić doświadczenia klientów i napędzać zrównoważony wzrost.<br></br>
                 <b>Przedsiębiorcy i startupy tworzące cyfrowy ślad:</b> Zapewnij swojej firmie cyfrową przewagę, której potrzebuje. Nasze aplikacje internetowe mogą pomóc w zbudowaniu silnej obecności w Internecie, umożliwiając skuteczne dotarcie do docelowych odbiorców i nawiązanie z nimi kontaktu.</p>
                 </motion.div>
-                <motion.div custom={3} variants={textAnimationOpacity} className="webapp-img"><img src="/img/webapp.png" alt="web application" /></motion.div>
+                <motion.div custom={3} variants={textAnimationOpacity} className="webapp-img"><img src="/img/webapp.png" alt="IQA - Web Application" /></motion.div>
         </motion.div>
     )
 }

@@ -23,7 +23,7 @@ const Websites = () => {
                 <b>Przedsiębiorcy i startupy budujące swój cyfrowy ślad:</b> Zapewnij swojej firmie cyfrową przewagę, której potrzebuje. Nasze usługi tworzenia stron internetowych mogą pomóc w budowaniu silnej obecności online, umożliwiając skuteczne angażowanie i łączenie się z docelowymi odbiorcami.
                 </p>
             </motion.div>
-            <motion.div custom={3.2} variants={textAnimationOpacity} className="websites-img"><img src="/img/webapp.png" alt="websites" /></motion.div>
+            <motion.div custom={3.2} variants={textAnimationOpacity} className="websites-img"><img src="/img/webapp.png" alt="IQA - Websites" /></motion.div>
         </motion.div>
     )
 }
