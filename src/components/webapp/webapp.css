@@ -60,7 +60,7 @@
 @media only screen and (max-width: 425px){
     .webapp{
         flex-direction: column;
-        height: 140vh;
+        height: 110vh;
         gap: 2rem;
     }
     .p-red-webapp{
