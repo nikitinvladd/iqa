@@ -15,11 +15,11 @@ width: 40%;
     margin-bottom: 2px;
 }
 .ads-information h1{
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     color: #fff;
 }
 .ads-information p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
 
 }
@@ -27,14 +27,17 @@ width: 40%;
     width: 550px;
 }
 @media only screen and (max-width: 1024px){
+    .ads{
+        height: 120vh;
+    }
     .ads-information h1{
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
     .p-red-ads{
     margin-bottom: 5px;
     }
     .ads-information p{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         font-weight: 400;
     }
     .ads-information{
@@ -47,7 +50,7 @@ width: 40%;
 @media only screen and (max-width: 768px){
     .ads-information h1{
         text-align: center;
-        font-size: 2.1rem;
+        font-size: 2rem;
         color: #fff;
     }
     .p-red-ads{
@@ -55,11 +58,11 @@ width: 40%;
     margin-bottom: 5px;
     }
     .ads-information p{
-        font-size: 1rem;
+        font-size: 0.8rem;
         font-weight: 400;
     }
     .ads-information{
-        width: 70%;
+        width: 80%;
         }
     .ads{
         flex-direction: column;
@@ -81,14 +84,14 @@ width: 40%;
     margin-bottom: 5px;
     }
     .ads-information p{
-        font-size: 0.9rem;
+        font-size: 0.75rem;
     }
     .ads-information{
         width: 80%;
         }
     .ads{
         flex-direction: column;
-        height: 150vh;
+        height: 165vh;
         gap: 2rem;
     }
     .ads-img img{
@@ -104,14 +107,14 @@ width: 40%;
     font-size: 0.8rem;
     }
     .ads-information p{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .ads-img img{
         width: 330px;
     }
     .ads{
         flex-direction: column;
-        height: 140vh;
+        height: 160vh;
         gap: 2rem;
     }
 }
@@ -131,7 +134,7 @@ width: 40%;
     }
     .ads{
         flex-direction: column;
-        height: 140vh;
+        height: 170vh;
         gap: 2rem;
     }
 }

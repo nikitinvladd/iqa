@@ -27,11 +27,11 @@ const Header = () => {
                     <li><a className='nav-link' href="/">Home</a></li>
                     <li><a className='nav-link' href="/offer">Oferta</a>
                         <ul>
-                            <li><a className='nav-link' href="/webapp">Aplikacje Internetowe</a></li>
-                            <li><a className='nav-link' href="/websites">Strony Internetowe</a></li>
-                            <li><a className='nav-link' href="/bots">Boty</a></li>
-                            <li><a className='nav-link' href="/ads">Reklama</a></li>
-                            <li><a className='nav-link' href="/">Sekretna Formula Sukcesu</a></li>
+                            <li><a className='nav-link' href="/webapp">Application Development</a></li>
+                            <li><a className='nav-link' href="/websites">Website Development</a></li>
+                            <li><a className='nav-link' href="/bots">Software Development</a></li>
+                            <li><a className='nav-link' href="/ads">Advertising</a></li>
+                            <li><a className='nav-link' href="/">AI Development</a></li>
                         </ul>
                     </li>
                     <li><a className='nav-link' href="/about">O nas</a></li></ul></div>

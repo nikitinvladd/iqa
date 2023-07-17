@@ -42,36 +42,40 @@ margin-bottom: 2px;
 @media only screen and (max-width: 768px){
     .bots{
         gap: 2rem;
+        height: 120vh;
     }
     .bots-information h1{
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
     .bots-information p{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .bots-img img{
         width: 350px;
-    }    
+    }  
+    .bots-information{
+        width: 40%;
+    }  
 }
 @media only screen and (max-width: 425px){
     .bots{
         flex-direction: column;
-        height: 140vh;
+        height: 160vh;
         gap: 2rem;
     }
     .bots-information{
-        width: 70%;
+        width: 80%;
     }
     .p-red-bots{
         text-align: center;
         margin-bottom: 2px;
     }
     .bots-information h1{
-        font-size: 2rem;
+        font-size: 1.9rem;
         text-align: center;
     }
     .bots-information p{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
     .bots-img img{
         width: 320px;
@@ -80,7 +84,7 @@ margin-bottom: 2px;
 @media only screen and (max-width: 375px){
     .bots{
         flex-direction: column;
-        height: 130vh;
+        height: 165vh;
         gap: 2rem;
     }
     .bots-information{
@@ -91,11 +95,11 @@ margin-bottom: 2px;
         margin-bottom: 2px;
     }
     .bots-information h1{
-        font-size: 2rem;
+        font-size: 1.9rem;
         text-align: center;
     }
     .bots-information p{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .bots-img img{
         width: 300px;
@@ -104,11 +108,11 @@ margin-bottom: 2px;
 @media only screen and (max-width: 320px){
     .bots{
         flex-direction: column;
-        height: 130vh;
+        height: 170vh;
         gap: 2rem;
     }
     .bots-information{
-        width: 80%;
+        width: 85%;
     }
     .p-red-bots{
         text-align: center;
@@ -116,11 +120,11 @@ margin-bottom: 2px;
         margin-bottom: 2px;
     }
     .bots-information h1{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         text-align: center;
     }
     .bots-information p{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .bots-img img{
         width: 270px;
