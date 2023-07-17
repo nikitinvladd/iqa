@@ -6,7 +6,7 @@ return(
         <div className="info-text">
             <p>O F E R T A</p>
             <h1>Czym się zajmujemy?</h1>
-            <p className="info-p">Tworzenie stron internetowych (sklepów internetowych), pozycjonowanie stron www (SEO), reklama w wyszukiwarce Google. Skuteczna promocja Twojej Marki w Google Ads, Facebook Ads. Prowadzenie kont w social media. Usługi fotografii i filmowania dronem. Zapoznaj się z moją ofertą!</p>
+            <p className="info-p">Esteśmy mlodą doswiadczoną firmą software engineering. Juz jesteśmy gotowi zrealizować twoj project! Czekamy na ciebie i twoje koncepcje!</p>
         </div>
         <div className="information-card">
             <ul>
@@ -23,7 +23,7 @@ return(
                 <div className="card-information">
                 <img src="/img/cart.svg" alt="" />
                     <h1>Sklepy Internetowe</h1>
-<p>Twoja wizytówka w sieci - profesjonalne strony internetowe dla Twojego biznesu.</p>
+                    <p>Zrealizuj swoje marzenia cyfrowo.</p>
                 </div>
                 </li>
             </ul>
@@ -32,7 +32,7 @@ return(
                 <div className="card-information">
                 <img src="/img/ads.svg" alt="" />
                     <h1>Facebook Ads</h1>
-<p>Twoja wizytówka w sieci - profesjonalne strony internetowe dla Twojego biznesu.</p>
+                    <p>Zrób wybuchową aktywność z naszą firmą.</p>
                 </div>
                 </li>
             </ul>
@@ -41,7 +41,7 @@ return(
                 <div className="card-information">
                 <img src="/img/security.svg" alt="" />
                     <h1>Opieka nad stroną | aplikacją</h1>
-<p>Twoja wizytówka w sieci - profesjonalne strony internetowe dla Twojego biznesu.</p>
+                    <p>Gwarantujemy bezpieczenswo i opieke nad twoim projektem.</p>
                 </div>
                 </li>
             </ul>
@@ -50,7 +50,7 @@ return(
                 <div className="card-information">
                 <img src="/img/steps.svg" alt="" />
                     <h1>Pozycjonowanie</h1>
-                    <p>Twoja wizytówka w sieci - profesjonalne strony internetowe dla Twojego biznesu.</p>
+                    <p>Zrobimy twoj projekt wygodnym do klientów, adaptywnym, do urzywania.</p>
                 </div>
                 </li>
             </ul>
@@ -58,8 +58,8 @@ return(
                 <li>
                 <div className="card-information">
                 <img src="/img/steps.svg" alt="" />
-                    <h1>Boty</h1>
-                    <p>Twoja wizytówka w sieci - profesjonalne strony internetowe dla Twojego biznesu.</p>
+                    <h1>Software Engineering</h1>
+                    <p>Zrealizuj swoje pomysly w cyfrowy swiat.</p>
                 </div>
                 </li>
             </ul>
