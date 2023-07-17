@@ -83,7 +83,7 @@
 }
 @media only screen and (max-width: 375px){
     .webapp{
-        height: 140vh;
+        height: 155vh;
     }
     .web-information h1{
         font-size: 1.4rem;
