@@ -15,11 +15,11 @@ color: #660000;
 margin-bottom: 2px;
 }
 .bots-information h1{
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     color: #fff;
 }
 .bots-information p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
 }
 .bots-img img{
@@ -33,7 +33,7 @@ margin-bottom: 2px;
         font-size: 2rem;
     }
     .bots-information p{
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
     .bots-img img{
         width: 380px;

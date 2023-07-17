@@ -15,11 +15,11 @@ width: 40%;
     margin-bottom: 2px;
 }
 .websites-information h1{
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     color: #fff;
 }
 .websites-information p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 400;
 }
 .websites-img img{
@@ -27,24 +27,28 @@ width: 40%;
 }
 @media only screen and (max-width: 1024px){
     .websites-information h1{
-        font-size: 2.2rem;
-    }
-    .websites-information p{
-        font-size: 1rem;
-    }
-    .websites-img img{
-        width: 420px;
-    } 
-}
-@media only screen and (max-width: 768px){
-    .websites{
-        gap: 2rem;
-    }
-    .websites-information h1{
         font-size: 2rem;
     }
     .websites-information p{
         font-size: 0.8rem;
+    }
+    .websites-img img{
+        width: 420px;
+    } 
+    .websites{
+        height: 130vh;
+    }
+}
+@media only screen and (max-width: 768px){
+    .websites{
+        gap: 2rem;
+        height: 140vh;
+    }
+    .websites-information h1{
+        font-size: 1.7rem;
+    }
+    .websites-information p{
+        font-size: 0.75rem;
     }
     .websites-img img{
         width: 350px;
@@ -53,7 +57,7 @@ width: 40%;
 @media only screen and (max-width: 425px){
     .websites{
         flex-direction: column;
-        height: 140vh;
+        height: 180vh;
         gap: 2rem;
     }
     .p-red-websites{
@@ -64,10 +68,10 @@ width: 40%;
         }
     .websites-information h1{
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .websites-information p{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .websites-img img{
         width: 330px;
@@ -78,16 +82,28 @@ width: 40%;
         width: 80%;
         }
     .websites-information h1{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     .websites-information p{
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
     .websites-img img{
         width: 300px;
     }
 }
 @media only screen and (max-width: 375px){
+    .websites{
+        height: 185vh;
+    }
+    .websites-information{
+        width: 85%;
+        }
+    .websites-information h1{
+        font-size: 1.7rem;
+    }
+    .websites-information p{
+        font-size: 0.7rem;
+    }
     .websites-img img{
         width: 270px;
     }
