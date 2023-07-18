@@ -47,10 +47,10 @@ const Header = () => {
                         </ul>
                     </li>
                     <li><a className='nav-link' href="/about">O nas</a></li>
-                    <a className='nav-link btn' href="/konsultation"><li className='nav-btn'>Umów konsultacje</li></a>
+                    <a className='nav-link btn' href="/consultation"><li className='nav-btn'>Umów konsultacje</li></a>
                 </ul>
                 <div className="nav-button-dropdown">
-                <a className='nav-link btn' href="/konsultation"><li className='nav-btn'>Umów konsultacje</li></a>
+                <a className='nav-link btn' href="/consultation"><li className='nav-btn'>Umów konsultacje</li></a>
                     <DropdownButton onClick={() => changeLanguage("pl")} id="dropdown" title="PL">
                     <Dropdown.Item onClick={() => changeLanguage("en")}>EN</Dropdown.Item>
                     <Dropdown.Item onClick={() => changeLanguage("ru")}>RU</Dropdown.Item>

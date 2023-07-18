@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Main from './components/main/main';
 import WhatWeDo from './components/what-we-do/whatwedo';
 import Purpose from './components/purpose/purpose';
-import Konsultation from './components/konsultation/konsultation';
+import Konsultation from './components/konsultation/consultation';
 import Header from './components/header/header';
 import AboutUs from './components/about/about';
 import Footer from './components/footer/footer';
@@ -30,7 +30,7 @@ function App() {
                       <WeCanHelp/>
                       <Footer/>
                 </Route>
-                    <Route exact path="/konsultation">
+                    <Route exact path="/consultation">
                       <Konsultation/>
                       <Footer/>
                     </Route>

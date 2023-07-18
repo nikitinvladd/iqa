@@ -1,6 +1,6 @@
 import React from "react";
 import { InlineWidget } from "react-calendly";
-import './konsultation.css';
+import './consultation.css';
 
 const Konsultation = () => {
     return(
