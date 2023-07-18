@@ -84,7 +84,7 @@ margin-bottom: 2px;
 @media only screen and (max-width: 375px){
     .bots{
         flex-direction: column;
-        height: 165vh;
+        height: 150vh;
         gap: 2rem;
     }
     .bots-information{
