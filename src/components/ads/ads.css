@@ -114,7 +114,7 @@ width: 40%;
     }
     .ads{
         flex-direction: column;
-        height: 150vh;
+        height: 140vh;
         gap: 2rem;
     }
 }
