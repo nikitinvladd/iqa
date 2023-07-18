@@ -78,20 +78,6 @@ width: 40%;
     }
 }
 @media only screen and (max-width: 375px){
-    .websites-information{
-        width: 80%;
-        }
-    .websites-information h1{
-        font-size: 1.7rem;
-    }
-    .websites-information p{
-        font-size: 0.7rem;
-    }
-    .websites-img img{
-        width: 300px;
-    }
-}
-@media only screen and (max-width: 375px){
     .websites{
         height: 145vh;
     }
@@ -105,6 +91,6 @@ width: 40%;
         font-size: 0.7rem;
     }
     .websites-img img{
-        width: 270px;
+        width: 300px;
     }
 }
