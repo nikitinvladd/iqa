@@ -31,7 +31,6 @@ const Header = () => {
                             <li><a className='nav-link' href="/websites">Website Development</a></li>
                             <li><a className='nav-link' href="/bots">Software Development</a></li>
                             <li><a className='nav-link' href="/ads">Advertising</a></li>
-                            <li><a className='nav-link' href="/">AI Development</a></li>
                         </ul>
                     </li>
                     <li><a className='nav-link' href="/about">O nas</a></li></ul></div>
