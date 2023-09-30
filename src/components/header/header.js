@@ -50,10 +50,6 @@ const Header = () => {
                 </ul>
                 <div className="nav-button-dropdown">
                 <a className='nav-link btn' href="/consultation"><li className='nav-btn'>Umów konsultacje</li></a>
-                    <DropdownButton onClick={() => changeLanguage("pl")} id="dropdown" title="PL">
-                    <Dropdown.Item onClick={() => changeLanguage("en")}>EN</Dropdown.Item>
-                    <Dropdown.Item onClick={() => changeLanguage("ru")}>RU</Dropdown.Item>
-                    </DropdownButton>
                 </div>
                 <div onClick={updateMenu}className={burger_class}>
                     <span></span>
