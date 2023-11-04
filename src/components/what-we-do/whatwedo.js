@@ -30,7 +30,7 @@ return(
             <ul>
                 <li>
                 <div className="card-information">
-                <img src="/img/ads.svg" alt="" />
+                <img src="/img/adversting.svg" alt="" />
                     <h1>Facebook Ads</h1>
                     <p>Zrób wybuchową aktywność z naszą firmą.</p>
                 </div>
