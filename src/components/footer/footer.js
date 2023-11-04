@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="footer-information">
                 <div className="contact-us">
                     <h1>Wykorzystaj swoją cyfrową przewagę dzięki IQA</h1>
-                    <a className='nav-link btn' href="/konsultation"><li className='nav-btn'>Umów konsultacje</li></a>
+                    <a className='nav-link btn' href="/consultation"><li className='nav-btn'>Umów konsultacje</li></a>
                 </div>
                 <div className="services"><h1>USŁUGI</h1>
                 <ul><li><a href="/websites">STRONY INTERNETOWE</a></li>
