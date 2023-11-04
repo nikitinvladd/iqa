@@ -57,8 +57,8 @@ return(
             <ul>
                 <li>
                 <div className="card-information">
-                <img src="/img/steps.svg" alt="" />
-                    <h1>Software Engineering</h1>
+                <img src="/img/mobile.svg" alt="" />
+                    <h1>Aplikacje mobilne</h1>
                     <p>Zrealizuj swoje pomysly w cyfrowy swiat.</p>
                 </div>
                 </li>
